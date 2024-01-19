@@ -1,0 +1,9 @@
+Working:-
+Windows to Linux: scp -i ubuntu-key.pem /c/Users/hussa/OneDrive/Documents/demo ubuntu@34.203.216.138:/home/ubuntu/
+Linux to windows: scp -r ubuntu@35.172.133.221:/home/ubuntu/demo2.txt /c/Users/hussa/Downloads
+
+Note:- 
+Both Need to do from windows itself
+From Windows to Linux you need to pass pem key  & 
+From Linux to windows you need to generate ssh-keygen in windows & copy that ssh-key, paste in linux instance under authorized keys.
+
